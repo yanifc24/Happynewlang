@@ -1,0 +1,202 @@
+
+$naranja :rgb(241, 179, 8) ;
+$width: 100%;
+
+/*Map*/
+$colors: ( "verde": #9bf1a6,
+          "amarillo": #DBD141,  
+          "naranja": #E79C0F);
+ 
+/*Bloque 1 Exámenes internacionales*/
+.textoExamen{
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-right: 60px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    &__nivel {
+        font-family: 'Mali', cursive; 
+        font-size: 2rem; 
+        font-weight: bolder;
+        color: rgb(56, 205, 216);}  
+}
+
+ /*Bloque 2*/
+   
+.backgroundOrange{  
+     background-color:#f7aa1c;
+     margin-bottom: 20px;
+     padding-top: 40px ; 
+     &__tituloBlanco{ 
+        color: #ffffff;
+        font-weight: bolder;
+        font-size: 2rem; 
+        display: flex; 
+        justify-content: center;
+      }
+    }
+
+/*Bloque 3 Footer*/
+.datosContacto{ 
+ font-size: 1.2rem;
+ &__item{ 
+    text-align: start; 
+    padding: 6px; 
+    font-weight: bold;
+    &--blue{color: #132170;
+
+    }
+    &--grey{ color: #42403d;
+    
+    }
+    &--pink{color: #b30d4c;
+    
+    }
+    }
+    
+}
+
+/*Bloque 4 Portada*/
+
+#backgroundPortada { 
+    background-color:powderblue ;
+    background-position: bottom;
+    background-size: cover;
+    padding-bottom: 200px;
+    padding-top: 150px;
+  
+}
+.backgroundPortada__tituloGrande { 
+    padding-left: 40px;
+    padding-bottom: 40px;
+    font-size: 2.5rem;
+
+ }       
+.backgroundPortada__textoPortada {
+     color: rgb(7, 7, 7);
+    font-size: 1.4rem;
+    padding-left: 40px; 
+    padding-right: 40px;
+    line-height: 1.7;}
+
+/*Bloque 5 Derechos*/
+
+#derechosAbajo{
+     text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:flex-end ;
+    &__derechos { 
+        padding-left: 10px; 
+        font-size: 1rem;}
+}
+      
+/*Bloque 6 Cursos*/
+
+.textoCursos{ 
+    margin-top:40px ; 
+    margin-bottom: 50px;
+     
+}
+
+#textoCursos__cursoCentro { 
+    text-align: center;
+    font-size: 1.3rem ;
+    font-style: oblique;
+    line-height: 1.5;
+    text-align: justify;
+    padding: 20px 20px  20px  10px ; }
+
+/*Bloque 7  Galería nosotros*/
+
+#galeriaNosotros { display: flex; 
+    flex-flow: row wrap;
+    justify-content:center;
+    width: $width - 10; 
+    margin: auto;
+    column-gap: 50px;
+   
+}
+
+.galeriaNosotros__foto{ 
+     border-radius: 30px; 
+     border:$naranja 6px dotted; 
+     margin-top: 50px; 
+     display: flex; 
+     flex-basis: auto; 
+     flex-grow: 1; 
+}
+
+/*Bloque 8 Redes*/
+
+.agrandar{ 
+    list-style-type: none;
+    text-align: center;
+    &__redes{ 
+        padding:3px;
+    }
+    
+}
+
+/*Bloque 9 niveles*/
+.textoNiveles{ 
+    padding-left: 40px; 
+    font-size: 1.2rem;
+    &__parrafo {
+        line-height: 1.8; 
+        color:$naranja;
+        padding: 30px 30px;
+        border: $naranja 5px solid;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+
+}
+
+
+/*Bloque 10 niveles Boton*/
+
+.btnInscripcion{ 
+text-align:center;
+padding-top: 40px;
+&__niveles{ 
+    font-size: 20px;
+    padding: 35px;
+    border-radius: 20px;
+    }
+}
+
+
+/*Bloque 11 texto Examen*/
+
+.parrafoExamen{  
+    padding-left: 40px; 
+    font-size: 1.2rem;
+    &__modalidad{ 
+        line-height: 1.8; 
+        color:rgb(26, 180, 201);
+        padding: 30px 30px;
+        font-weight: bold;
+        border: rgb(128, 200, 209) 5px solid;
+        border-radius: 20px;
+    } 
+
+}
+
+/*Bucle (sección "nosotros")*/
+
+@for $i from 2 through 3 {
+    .listaColor-#{$i} {font-size:0.7rem * $i ;}
+}
+  
+ /*Each (sección "niveles")*/
+ 
+  @each $nombre, $color in $colors { 
+    .#{$nombre}{ 
+        padding: 40px 40px  40px  20px;
+        background-color: $color;
+    }
+}
+
