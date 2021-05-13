@@ -232,10 +232,14 @@ background-color: #f0f3f5;
                   flex-flow: row wrap;  
                   flex-direction: column;
                   justify-content: space-around ; 
-                  row-gap: 70px;}
+                  row-gap: 70px;
+               padding-left: 20px;}
 
-   
-             
+  .tablaSpace {padding-left: 30px; 
+ } 
+ #margenGaleria{ 
+      padding-left: 25px;
+ }            
   nav ul li { font-size: 1.1rem; }
            
   .tituloFooter{ font-size: 1rem;}
@@ -272,11 +276,18 @@ footer { margin-right: -110px;
           padding-right: 70px;
             }
    
- .margenes { margin-left: 20px; }
+ .margenes { margin-left: 25px; }
+ .margenesNosotros{
+      padding-left: 45px;
+ }
+ .margenesCursos{
+      padding-left: 35px;
+ }
  
  #gridExamen{
            display: flex; 
           flex-flow: row wrap;
+          padding-left: 40px;padding-right: 40px;
               }
  .textoExamen{
            text-align:start; 
@@ -303,12 +314,19 @@ footer { margin-right: -110px;
  .carousel-caption{ 
                   font-size:24px;
                  }
-            
+ #contacto { 
+      padding-left: 40px; 
+      padding-right: 40px;
+ }
+ .verde {
+      background-color:#9cf5a9 ;
+ }   
   .gridNiveles { display: flex;
                 flex-flow: row wrap;
                 align-items:center;
                 justify-content:center;
                 width: 60vw;
+               
  
              } 
            

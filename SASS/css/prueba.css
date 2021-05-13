@@ -265,7 +265,8 @@ video {
   padding-top: 40px; }
   .btnInscripcion__niveles {
     font-size: 20px;
-    padding: 35px;
+    padding: 30px;
+    margin-left: 30px;
     border-radius: 20px; }
 
 /*Bloque 11 texto Examen*/
@@ -508,7 +509,12 @@ footer {
     flex-flow: row wrap;
     flex-direction: column;
     justify-content: space-around;
-    row-gap: 70px; }
+    row-gap: 70px;
+    padding-left: 20px; }
+  .tablaSpace {
+    padding-left: 30px; }
+  #margenGaleria {
+    padding-left: 25px; }
   nav ul li {
     font-size: 1.1rem; }
   .tituloFooter {
@@ -544,10 +550,16 @@ footer {
     height: 180;
     padding-right: 70px; }
   .margenes {
-    margin-left: 20px; }
+    margin-left: 25px; }
+  .margenesNosotros {
+    padding-left: 45px; }
+  .margenesCursos {
+    padding-left: 35px; }
   #gridExamen {
     display: flex;
-    flex-flow: row wrap; }
+    flex-flow: row wrap;
+    padding-left: 40px;
+    padding-right: 40px; }
   .textoExamen {
     text-align: start; }
     .textoExamen li {
@@ -563,6 +575,11 @@ footer {
     width: 280px; }
   .carousel-caption {
     font-size: 24px; }
+  #contacto {
+    padding-left: 40px;
+    padding-right: 40px; }
+  .verde {
+    background-color: #9cf5a9; }
   .gridNiveles {
     display: flex;
     flex-flow: row wrap;
