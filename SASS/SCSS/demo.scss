@@ -86,9 +86,10 @@ nav ul li{
     /* Contacto*/
 
 
-#consulta{font-family:'Kiwi Maru', serif; 
+#consulta{
+    
      text-align: left; 
-     font-size: 1.4rem;
+     font-size: 1.5rem;
      padding-left: 10px;
     }
 
@@ -217,9 +218,10 @@ background-color: #f0f3f5;
                   padding-bottom: 30px;
                   margin: 0 auto;
                    }
+ .backgroundPortada__tituloGrande { padding-top: 20px}
              
          
- .textoPortada{    font-size: 1.2rem;
+.backgroundPortada__textoPortada { font-size: 1.2rem;
                    text-align: start; }
    
  .tituloNegro {    font-size: 1.7rem;
@@ -331,7 +333,12 @@ footer { margin-right: -110px;
              } 
            
           }
-   
+   .tituloGrande { 
+                       padding-top:20px;
+                  }
+ .ciudades{ 
+                  font-size:1.6rem;
+                 }
    
 @media (min-width:481px ) and (max-width:768px)  {
    
