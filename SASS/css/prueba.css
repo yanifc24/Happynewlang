@@ -11,14 +11,22 @@
   color: #ffffff;
   font-weight: bolder;
   font-size: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center; }
 
 .tituloNegro {
   color: #030200;
   font-weight: bolder;
   font-size: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   margin-bottom: 45px; }
 
@@ -34,8 +42,13 @@
   padding-left: 35px;
   text-decoration: underline;
   text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   margin-top: 40px; }
 
@@ -170,7 +183,11 @@ video {
     color: #ffffff;
     font-weight: bolder;
     font-size: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center; }
 
 /*Bloque 3 Footer*/
@@ -211,9 +228,17 @@ video {
 /*Bloque 5 Derechos*/
 #derechosAbajo {
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
   align-items: flex-end; }
   #derechosAbajo__derechos {
     padding-left: 10px;
@@ -234,11 +259,20 @@ video {
 
 /*Bloque 7  Galería nosotros*/
 #galeriaNosotros {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
   flex-flow: row wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   width: 90%;
   margin: auto;
+  -webkit-column-gap: 50px;
+  -moz-column-gap: 50px;
   column-gap: 50px; }
 
 .galeriaNosotros__foto {
@@ -351,16 +385,29 @@ nav ul li {
 
 /* Inicio Galería de imágenes "Nuestro espacio"*/
 #galeria {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-flow: row-reverse wrap;
   flex-flow: row-reverse wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
   width: 90%;
   margin: auto;
+  -webkit-column-gap: 40px;
+  -moz-column-gap: 40px;
   column-gap: 40px;
   row-gap: 30px; }
   #galeria img {
     border-radius: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-transition: border 0.5s;
+    -o-transition: border 0.5s;
     transition: border 0.5s; }
     #galeria img:hover {
       border-left: #f1b308 solid 8px;
@@ -391,10 +438,19 @@ nav ul li {
   margin-top: -10px; }
 
 #ubicacionDerecha {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
   flex-flow: row wrap;
+  -webkit-column-gap: 200px;
+  -moz-column-gap: 200px;
   column-gap: 200px;
   row-gap: 30px;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
   align-items: flex-start; }
 
 #form {
@@ -431,14 +487,23 @@ nav ul li {
 /*Fin exámen*/
 /* Inicio Footer"*/
 footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
   flex-flow: row wrap;
+  -ms-flex-pack: distribute;
   justify-content: space-around;
   background-color: #8ae9b3;
+  background-image: -o-linear-gradient(135deg, #8ae9b3 0%, #c8d6e5 74%);
   background-image: linear-gradient(315deg, #8ae9b3 0%, #c8d6e5 74%);
   margin-bottom: -35px;
   padding: 15px;
   margin-top: 200px;
+  -webkit-column-gap: 10px;
+  -moz-column-gap: 10px;
   column-gap: 10px; }
 
 .agrandar a img:hover {
@@ -541,14 +606,30 @@ footer {
     display: block;
     width: 100vw; }
   .sinItem li a {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center; }
   .datosContacto li {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center; }
   .backgroundOrange {
     width: 100vw; }
@@ -588,9 +669,18 @@ footer {
   .verde {
     background-color: #9cf5a9; }
   .gridNiveles {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
     flex-flow: row wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     width: 60vw; } }
 
@@ -638,9 +728,17 @@ footer {
   #derechos {
     font-size: 1rem; }
   #derechosAbajo {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center; }
   #galeria {
     display: grid;
@@ -649,14 +747,30 @@ footer {
     display: block;
     width: 105vw; }
   .sinItem li a {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center; }
   .datosContacto li {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center; }
   #margenMapa {
     margin-top: 80px; }
@@ -666,17 +780,32 @@ footer {
   .textoExamen li {
     font-size: 1rem; }
   #gridExamen {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row; }
   .slide {
     width: 105vw; }
   .gridNiveles {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
     flex-flow: row wrap;
     margin-left: 30px;
     width: 40vw;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center; }
   .navbar {
     width: 105vw; } }
@@ -715,8 +844,14 @@ footer {
   nav ul li {
     font-size: 1.5rem; }
   footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
     flex-flow: row wrap;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
     width: 100vw; }
   .backgroundOrange {
@@ -725,10 +860,20 @@ footer {
   #margenMapa {
     margin-top: 80px; }
   #gridExamen {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
     flex-flow: row wrap; }
   .gridNiveles {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
     flex-flow: row wrap;
     margin-left: 30px; } }
 
