@@ -1,9 +1,15 @@
  /*Comienzo tabla Grid*/
      
- .gridNiveles{ display: grid;
+ .gridNiveles{  display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 10px 1fr 10px 1fr;
     grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    column-gap: 10px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-column-gap: 10px;
+       -moz-column-gap: 10px;
+            column-gap: 10px;
    }
          
 
@@ -25,7 +31,10 @@
          transition-timing-function: linear;} 
     }
 
-.naranja:hover, .verde:hover, .amarillo:hover{ transform: scale(1.03,1.03);}
+.naranja:hover, .verde:hover, .amarillo:hover{ 
+      -webkit-transform: scale(1.03,1.03);
+    -ms-transform: scale(1.03,1.03);
+        transform: scale(1.03,1.03);}
 
 .tablaSpace{padding-top: 70px;
          margin-left: 20px;

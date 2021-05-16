@@ -48,14 +48,12 @@ nav ul li{
      display: flex; 
      flex-flow: row-reverse wrap;
      justify-content:center;
-     width: $width - 20;
+     width: $width - 10;
      margin: auto;
      column-gap: 40px;
-     row-gap: 50px;
+     row-gap: 30px;
      img {  border-radius: 20px; 
           display: flex;
-          flex-grow: 1; 
-         flex-basis: auto;
          transition: border 0.5s;
          &:hover { border-left: $naranja solid 8px;
           border-right: #e37f87 solid 8px;} ;
@@ -63,12 +61,6 @@ nav ul li{
 }
     }
 
-
- #imagenSiete{display: flex;
-     flex-grow: 2; }
-
-#imagenOcho{display: flex;
-     flex-grow: 2; }
 
 
 #margenGaleria{ margin-top: 100px;
@@ -230,12 +222,21 @@ background-color: #f0f3f5;
   #mediaWidth{    width: 100vw;
                   margin-right: 0 auto;}
    
- .listaUbicacion {display: flex; 
-                  flex-flow: row wrap;  
-                  flex-direction: column;
-                  justify-content: space-around ; 
-                  row-gap: 70px;
-               padding-left: 20px;}
+ .listaUbicacion {display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex; 
+      -webkit-box-orient: horizontal; 
+      -webkit-box-direction: normal; 
+          -ms-flex-flow: row wrap; 
+              flex-flow: row wrap;  
+      -ms-flex-direction: column;  
+          flex-direction: column;
+      -ms-flex-pack: distribute;
+          justify-content: space-around ; 
+      row-gap: 70px;
+      padding-left: 20px;
+
+ }
 
   .tablaSpace {padding-left: 30px; 
  } 

@@ -122,12 +122,13 @@ $colors: ( "verde": #9bf1a6,
 }
 
 .galeriaNosotros__foto{ 
-     border-radius: 30px; 
-     border:$naranja 6px dotted; 
-     margin-top: 50px; 
-     display: flex; 
-     flex-basis: auto; 
-     flex-grow: 1; 
+                 border-radius: 30px; 
+                 border:$naranja 6px dotted; 
+                 margin-top: 50px; 
+                 display: -webkit-box; 
+                 display: -ms-flexbox; 
+                 display: flex;
+     
 }
 
 /*Bloque 8 Redes*/

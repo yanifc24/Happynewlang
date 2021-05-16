@@ -42,9 +42,15 @@
 /* Fin de Títulos*/
 /*Comienzo tabla Grid*/
 .gridNiveles {
+  display: -ms-grid;
   display: grid;
+  -ms-grid-columns: 1fr 10px 1fr 10px 1fr;
   grid-template-columns: repeat(3, 1fr);
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-column-gap: 10px;
+  -moz-column-gap: 10px;
   column-gap: 10px; }
 
 .textoTabla {
@@ -65,6 +71,8 @@
     transition-timing-function: linear; }
 
 .naranja:hover, .verde:hover, .amarillo:hover {
+  -webkit-transform: scale(1.03, 1.03);
+  -ms-transform: scale(1.03, 1.03);
   transform: scale(1.03, 1.03); }
 
 .tablaSpace {
@@ -125,10 +133,10 @@ video {
     margin-bottom: 15px; }
 
 #ubicacion {
-  font-family: 'Kiwi Maru', serif;
   font-size: 1,4rem;
-  font-weight: bold;
-  margin-top: -55px; }
+  margin-top: -55px;
+  font-family: serif;
+  font-weight: bold; }
 
 #lineaPunteada {
   padding: 40px 50px;
@@ -190,7 +198,8 @@ video {
 .backgroundPortada__tituloGrande {
   padding-left: 40px;
   padding-bottom: 40px;
-  font-size: 2.5rem; }
+  font-size: 2.5rem;
+  padding-top: 40px; }
 
 .backgroundPortada__textoPortada {
   color: #070707;
@@ -236,9 +245,9 @@ video {
   border-radius: 30px;
   border: #f1b308 6px dotted;
   margin-top: 50px;
-  display: flex;
-  flex-basis: auto;
-  flex-grow: 1; }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
 
 /*Bloque 8 Redes*/
 .agrandar {
@@ -345,27 +354,17 @@ nav ul li {
   display: flex;
   flex-flow: row-reverse wrap;
   justify-content: center;
-  width: 80%;
+  width: 90%;
   margin: auto;
   column-gap: 40px;
-  row-gap: 50px; }
+  row-gap: 30px; }
   #galeria img {
     border-radius: 20px;
     display: flex;
-    flex-grow: 1;
-    flex-basis: auto;
     transition: border 0.5s; }
     #galeria img:hover {
       border-left: #f1b308 solid 8px;
       border-right: #e37f87 solid 8px; }
-
-#imagenSiete {
-  display: flex;
-  flex-grow: 2; }
-
-#imagenOcho {
-  display: flex;
-  flex-grow: 2; }
 
 #margenGaleria {
   margin-top: 100px;
@@ -381,9 +380,8 @@ nav ul li {
 
 /* Contacto*/
 #consulta {
-  font-family: 'Kiwi Maru', serif;
   text-align: left;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   padding-left: 10px; }
 
 #margenConsulta {
@@ -495,7 +493,9 @@ footer {
   .backgroundDos {
     padding-bottom: 30px;
     margin: 0 auto; }
-  .textoPortada {
+  .backgroundPortada__tituloGrande {
+    padding-top: 20px; }
+  .backgroundPortada__textoPortada {
     font-size: 1.2rem;
     text-align: start; }
   .tituloNegro {
@@ -505,9 +505,16 @@ footer {
     width: 100vw;
     margin-right: 0 auto; }
   .listaUbicacion {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
     flex-flow: row wrap;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
     row-gap: 70px;
     padding-left: 20px; }
@@ -586,6 +593,12 @@ footer {
     align-items: center;
     justify-content: center;
     width: 60vw; } }
+
+.tituloGrande {
+  padding-top: 20px; }
+
+.ciudades {
+  font-size: 1.6rem; }
 
 @media (min-width: 481px) and (max-width: 768px) {
   .backgroundDos {
