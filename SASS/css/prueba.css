@@ -269,27 +269,7 @@ video {
   padding: 20px 20px  20px  10px; }
 
 /*Bloque 7  Galería nosotros*/
-#galeriaNosotros {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  display: -webkit-flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-flow: row wrap;
-  flex-flow: row wrap;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  width: 90%;
-  margin: auto;
-  -webkit-column-gap: 50px;
-  -moz-column-gap: 50px;
-  column-gap: 50px;
-  row-gap: 30px;
-  -webkit-row-gap: 30px; }
-
-.galeriaNosotros__foto {
+.galeria__foto {
   border-radius: 30px;
   border: #f1b308 6px dotted;
   margin-top: 50px;
@@ -400,7 +380,7 @@ nav ul li {
   font-size: 1.2rem; }
 
 /* Inicio Galería de imágenes "Nuestro espacio"*/
-#galeria {
+.galeria {
   display: -webkit-box;
   display: -ms-flexbox;
   display: -webkit-flex;
@@ -419,19 +399,20 @@ nav ul li {
   column-gap: 40px;
   -webkit-row-gap: 30px;
   row-gap: 30px; }
-  #galeria img {
-    border-radius: 20px;
-    width: 280px;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-transition: border 0.5s;
-    -o-transition: border 0.5s;
-    transition: border 0.5s; }
-    #galeria img:hover {
-      border-left: #f1b308 solid 8px;
-      border-right: #e37f87 solid 8px; }
+
+.imgIndex {
+  border-radius: 20px;
+  width: 280px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-transition: border 0.5s;
+  -o-transition: border 0.5s;
+  transition: border 0.5s; }
+  .imgIndex:hover {
+    border-left: #f1b308 solid 8px;
+    border-right: #e37f87 solid 8px; }
 
 #margenGaleria {
   margin-top: 100px;
@@ -582,7 +563,7 @@ footer {
   .backgroundDos {
     padding-bottom: 30px;
     margin: 0 auto; }
-  #galeria {
+  .galeria {
     display: grid;
     grid-template-columns: repeat 8 1fr;
     column-gap: 30px;
@@ -660,7 +641,9 @@ footer {
     flex-direction: column;
     -webkit-box-align: center;
     -ms-flex-align: center;
-    align-items: center; }
+    align-items: center;
+    -webkit-row-gap: 30px;
+    row-gap: 30px; }
   .datosContacto li {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -733,13 +716,11 @@ footer {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-    width: 60vw; } }
-
-.tituloGrande {
-  padding-top: 20px; }
-
-.ciudades {
-  font-size: 1.6rem; }
+    width: 60vw; }
+  .tituloGrande {
+    padding-top: 20px; }
+  .ciudades {
+    font-size: 1.6rem; } }
 
 @media (min-width: 481px) and (max-width: 768px) {
   .backgroundDos {
@@ -793,7 +774,7 @@ footer {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center; }
-  #galeria {
+  .galeria {
     display: grid;
     grid-template-columns: repeat 8 1fr;
     column-gap: 30px;

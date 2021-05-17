@@ -126,38 +126,20 @@ $colors: ( "verde": #9bf1a6,
 
 /*Bloque 7  Galería nosotros*/
 
-#galeriaNosotros { display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; 
-    display: -webkit-flex;
--webkit-box-orient: horizontal; 
--webkit-box-direction: normal; 
--ms-flex-flow: row wrap; 
-    flex-flow: row wrap;
--webkit-box-pack:center;
--ms-flex-pack:center;
-   justify-content:center;
-width: $width - 10; 
-margin: auto;
--webkit-column-gap: 50px;
--moz-column-gap: 50px;
-   column-gap: 50px ;
-   row-gap: 30px;
-    -webkit-row-gap:30px;
-    
-}
 
-.galeriaNosotros__foto{ 
-                 border-radius: 30px; 
-                 border:$naranja 6px dotted; 
-                 margin-top: 50px; 
-                 display: -webkit-box; 
-                 display: -ms-flexbox; 
-                 display: -webkit-flex;
-                 display: flex;
-                 width: 250px;
-     
+       .galeria__foto{ 
+        border-radius: 30px; 
+        border:$naranja 6px dotted; 
+        margin-top: 50px; 
+        display: -webkit-box; 
+        display: -ms-flexbox; 
+        display: -webkit-flex;
+        display: flex;
+        width: 250px;
+
 }
+    
+
 
 /*Bloque 8 Redes*/
 

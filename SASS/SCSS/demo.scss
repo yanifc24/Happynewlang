@@ -44,7 +44,7 @@ nav ul li{
    
  /* Inicio Galería de imágenes "Nuestro espacio"*/
 
-    #galeria  {    
+    .galeria  {    
      display: -webkit-box;
         display: -ms-flexbox;
         display: -webkit-flex;
@@ -63,22 +63,22 @@ nav ul li{
              column-gap: 40px;
              -webkit-row-gap: 30px;   
               row-gap: 30px;
-     img {  border-radius: 20px;
-              width: 280px; 
-          display: -webkit-box; 
-          display: -webkit-flex;
-          display: -ms-flexbox; 
-          display: flex;
-         -webkit-transition: border 0.5s;
-         -o-transition: border 0.5s;
-         transition: border 0.5s;
-         &:hover { border-left: $naranja solid 8px;
-          border-right: #e37f87 solid 8px;} ;
-
-}
+     
     }
 
+    .imgIndex{  border-radius: 20px;
+        width: 280px; 
+    display: -webkit-box; 
+    display: -webkit-flex;
+    display: -ms-flexbox; 
+    display: flex;
+   -webkit-transition: border 0.5s;
+   -o-transition: border 0.5s;
+   transition: border 0.5s;
+   &:hover { border-left: $naranja solid 8px;
+    border-right: #e37f87 solid 8px;} ;
 
+}
 
 #margenGaleria{ margin-top: 100px;
          margin-left: 20px;
@@ -250,7 +250,7 @@ background-color: #f0f3f5;
                   padding-bottom: 30px;
                   margin: 0 auto;
                    }
-  #galeria{ display: grid; 
+  .galeria{ display: grid; 
                     grid-template-columns: repeat 8( 1fr);
                     column-gap: 30px;
                     row-gap:  30px;
@@ -334,7 +334,10 @@ footer { margin-right: -110px;
              flex-direction: column;
      -webkit-box-align: center;
          -ms-flex-align: center;
-             align-items: center    ;}
+             align-items: center    ;
+             -webkit-row-gap: 30px;
+             row-gap: 30px;
+            }
    
  .datosContacto li {    display: -webkit-box;        
         display: -ms-flexbox;  
@@ -427,14 +430,15 @@ padding-right: 40px;
                
  
              } 
-           
+
+             .tituloGrande { 
+                padding-top:20px;
+           }
+.ciudades{ 
+           font-size:1.6rem;
           }
-   .tituloGrande { 
-                       padding-top:20px;
-                  }
- .ciudades{ 
-                  font-size:1.6rem;
-                 }
+          }
+   
    
 @media (min-width:481px ) and (max-width:768px)  {
    
@@ -491,7 +495,7 @@ padding-right: 40px;
          -ms-flex-pack: center;
              justify-content: center  ;}
      
- #galeria{ display: grid; 
+ .galeria{ display: grid; 
           grid-template-columns: repeat 8( 1fr);
           column-gap: 30px;
           row-gap:  30px;
