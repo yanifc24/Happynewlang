@@ -61,7 +61,8 @@ nav ul li{
      -webkit-column-gap: 40px;
         -moz-column-gap: 40px;
              column-gap: 40px;
-     row-gap: 30px;
+             -webkit-row-gap: 30px;   
+              row-gap: 30px;
      img {  border-radius: 20px;
               width: 280px; 
           display: -webkit-box; 
@@ -116,6 +117,7 @@ nav ul li{
         -moz-column-gap: 200px;
              column-gap: 200px;
      row-gap: 30px;
+     -webkit-row-gap:30px;
      -webkit-box-align: start;
          -ms-flex-align: start;
              align-items: flex-start ;} 
@@ -152,6 +154,7 @@ padding-left: 10px;
              grid-template-rows: repeat(2, 1fr);
              grid-column-gap: 45px;
              grid-row-gap: 37px;
+            
 
 }
 
@@ -191,6 +194,7 @@ padding-left: 10px;
 .listaUbicacion{  display: grid; 
            grid-template-columns: repeat(3, 1fr);
            column-gap: 40px;
+           -webkit-column-gap:40px;
            margin-top: 80px; 
            a {display:block; 
                padding-left: 50px;
@@ -246,6 +250,15 @@ background-color: #f0f3f5;
                   padding-bottom: 30px;
                   margin: 0 auto;
                    }
+  #galeria{ display: grid; 
+                    grid-template-columns: repeat 8( 1fr);
+                    column-gap: 30px;
+                    row-gap:  30px;
+                    -webkit-row-gap:30px;
+                    -webkit-column-gap: 30px;
+          
+                      
+                       }
  .backgroundPortada__tituloGrande { padding-top: 20px}
              
          
@@ -270,6 +283,7 @@ background-color: #f0f3f5;
           flex-direction: column;
       -ms-flex-pack: distribute;
           justify-content: space-around ; 
+       -webkit-row-gap: 70px;
       row-gap: 70px;
       padding-left: 20px;
 
@@ -445,7 +459,8 @@ padding-right: 40px;
    
 .listaUbicacion {display: grid; 
                   grid-template-columns: 1fr; 
-                  row-gap: 45px; 
+                  row-gap: 45px;
+                  -webkit-row-gap:45px;
                   justify-self: center; }
    
  .textoBlanco{ font-size: 2.2rem; }
@@ -478,7 +493,12 @@ padding-right: 40px;
      
  #galeria{ display: grid; 
           grid-template-columns: repeat 8( 1fr);
-                 
+          column-gap: 30px;
+          row-gap:  30px;
+          -webkit-row-gap:30px;
+          -webkit-column-gap: 30px;
+
+            
              }
             
    

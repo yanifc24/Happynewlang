@@ -285,7 +285,9 @@ video {
   margin: auto;
   -webkit-column-gap: 50px;
   -moz-column-gap: 50px;
-  column-gap: 50px; }
+  column-gap: 50px;
+  row-gap: 30px;
+  -webkit-row-gap: 30px; }
 
 .galeriaNosotros__foto {
   border-radius: 30px;
@@ -415,6 +417,7 @@ nav ul li {
   -webkit-column-gap: 40px;
   -moz-column-gap: 40px;
   column-gap: 40px;
+  -webkit-row-gap: 30px;
   row-gap: 30px; }
   #galeria img {
     border-radius: 20px;
@@ -467,6 +470,7 @@ nav ul li {
   -moz-column-gap: 200px;
   column-gap: 200px;
   row-gap: 30px;
+  -webkit-row-gap: 30px;
   -webkit-box-align: start;
   -ms-flex-align: start;
   align-items: flex-start; }
@@ -534,6 +538,7 @@ footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 40px;
+  -webkit-column-gap: 40px;
   margin-top: 80px; }
   .listaUbicacion a {
     display: block;
@@ -577,6 +582,13 @@ footer {
   .backgroundDos {
     padding-bottom: 30px;
     margin: 0 auto; }
+  #galeria {
+    display: grid;
+    grid-template-columns: repeat 8 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+    -webkit-row-gap: 30px;
+    -webkit-column-gap: 30px; }
   .backgroundPortada__tituloGrande {
     padding-top: 20px; }
   .backgroundPortada__textoPortada {
@@ -601,6 +613,7 @@ footer {
     flex-direction: column;
     -ms-flex-pack: distribute;
     justify-content: space-around;
+    -webkit-row-gap: 70px;
     row-gap: 70px;
     padding-left: 20px; }
   .tablaSpace {
@@ -750,6 +763,7 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 45px;
+    -webkit-row-gap: 45px;
     justify-self: center; }
   .textoBlanco {
     font-size: 2.2rem; }
@@ -781,7 +795,11 @@ footer {
     justify-content: center; }
   #galeria {
     display: grid;
-    grid-template-columns: repeat 8 1fr; }
+    grid-template-columns: repeat 8 1fr;
+    column-gap: 30px;
+    row-gap: 30px;
+    -webkit-row-gap: 30px;
+    -webkit-column-gap: 30px; }
   footer {
     display: block;
     width: 105vw; }
