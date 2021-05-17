@@ -420,6 +420,7 @@ nav ul li {
     border-radius: 20px;
     width: 280px;
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-transition: border 0.5s;
