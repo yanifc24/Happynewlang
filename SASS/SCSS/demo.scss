@@ -61,7 +61,8 @@ nav ul li{
         -moz-column-gap: 40px;
              column-gap: 40px;
      row-gap: 30px;
-     img {  border-radius: 20px; 
+     img {  border-radius: 20px;
+              width: 280px; 
           display: -webkit-box; 
           display: -ms-flexbox; 
           display: flex;
@@ -279,10 +280,18 @@ background-color: #f0f3f5;
    #derechos { font-size: 1rem;
                   padding-left: 40px;}
    
- #derechosAbajo { display: flex;
-                       flex-wrap: wrap; 
-                       flex-direction: row;
-                       justify-content: center;}
+ #derechosAbajo { display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; 
+    -webkit-box-orient: horizontal; 
+    -webkit-box-direction: normal; 
+        -ms-flex-direction: row; 
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;}
                   
             
 footer { margin-right: -110px;
@@ -331,7 +340,8 @@ footer { margin-right: -110px;
  #gridExamen{
            display: flex; 
           flex-flow: row wrap;
-          padding-left: 40px;padding-right: 40px;
+          padding-left: 40px;
+          padding-right: 40px;
               }
  .textoExamen{
            text-align:start; 
@@ -409,7 +419,8 @@ footer { margin-right: -110px;
  #mediaWidth{ width: 80vw;
                   margin-right: 0 px;}
             
-#backgroundPortada { margin-right: 0px; width: 105vw; }
+#backgroundPortada { margin-right: 0px;
+     width: 105vw; }
    
 .listaUbicacion {display: grid; 
                   grid-template-columns: 1fr; 

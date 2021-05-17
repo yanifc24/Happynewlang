@@ -26,9 +26,15 @@
        color: rgb(85, 145, 58) ;
        letter-spacing: 1px; 
        text-align: center;
-       &:hover{ transform: scale(1.2,1.2);
-         transition-duration: 1s;
-         transition-timing-function: linear;} 
+       &:hover{ -webkit-transform: scale(1.2,1.2);
+        -ms-transform: scale(1.2,1.2);
+            transform: scale(1.2,1.2);
+   -webkit-transition-duration: 1s;
+        -o-transition-duration: 1s;
+           transition-duration: 1s;
+   -webkit-transition-timing-function: linear;
+        -o-transition-timing-function: linear;
+           transition-timing-function: linear;} 
     }
 
 .naranja:hover, .verde:hover, .amarillo:hover{ 
