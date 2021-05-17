@@ -13,6 +13,7 @@
   font-size: 2rem;
   display: -webkit-box;
   display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
@@ -23,6 +24,7 @@
   font-weight: bolder;
   font-size: 2rem;
   display: -webkit-box;
+  display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
@@ -44,6 +46,7 @@
   text-transform: uppercase;
   display: -webkit-box;
   display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
@@ -190,6 +193,7 @@ video {
     font-weight: bolder;
     font-size: 2rem;
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
@@ -237,6 +241,7 @@ video {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  display: -webkit-flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
@@ -268,6 +273,7 @@ video {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  display: -webkit-flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -ms-flex-flow: row wrap;
@@ -287,6 +293,7 @@ video {
   margin-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   width: 250px; }
 
@@ -394,6 +401,7 @@ nav ul li {
 #galeria {
   display: -webkit-box;
   display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
@@ -449,6 +457,7 @@ nav ul li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  display: -webkit-flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -ms-flex-flow: row wrap;
@@ -498,6 +507,7 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  display: -webkit-flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -ms-flex-flow: row wrap;
@@ -579,6 +589,7 @@ footer {
     margin-right: 0 auto; }
   .listaUbicacion {
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
@@ -606,6 +617,7 @@ footer {
     padding-left: 40px; }
   #derechosAbajo {
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -625,6 +637,7 @@ footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    display: -webkit-flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     -webkit-box-orient: vertical;
@@ -637,6 +650,7 @@ footer {
   .datosContacto li {
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -660,8 +674,14 @@ footer {
   .margenesCursos {
     padding-left: 35px; }
   #gridExamen {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
     flex-flow: row wrap;
+    display: -webkit-flex;
     padding-left: 40px;
     padding-right: 40px; }
   .textoExamen {
@@ -687,6 +707,7 @@ footer {
   .gridNiveles {
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -745,6 +766,7 @@ footer {
     font-size: 1rem; }
   #derechosAbajo {
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -764,6 +786,7 @@ footer {
     width: 105vw; }
   .sinItem li a {
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
@@ -778,6 +801,7 @@ footer {
   .datosContacto li {
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -798,6 +822,7 @@ footer {
   #gridExamen {
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -810,6 +835,7 @@ footer {
   .gridNiveles {
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -861,6 +887,7 @@ footer {
     font-size: 1.5rem; }
   footer {
     display: -webkit-box;
+    display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
@@ -879,6 +906,7 @@ footer {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    display: -webkit-flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -ms-flex-flow: row wrap;
@@ -886,6 +914,7 @@ footer {
   .gridNiveles {
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;

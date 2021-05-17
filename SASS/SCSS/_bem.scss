@@ -33,6 +33,7 @@ $colors: ( "verde": #9bf1a6,
           font-weight: bolder;
         font-size: 2rem; 
         display: -webkit-box; 
+        display: -webkit-flex;
         display: -ms-flexbox; 
         display: flex; 
         -webkit-box-pack: center; 
@@ -92,6 +93,7 @@ $colors: ( "verde": #9bf1a6,
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    display: -webkit-flex;
    -webkit-box-orient: horizontal;
    -webkit-box-direction: normal;
        -ms-flex-direction: row;
@@ -127,6 +129,7 @@ $colors: ( "verde": #9bf1a6,
 #galeriaNosotros { display: -webkit-box;
     display: -ms-flexbox;
     display: flex; 
+    display: -webkit-flex;
 -webkit-box-orient: horizontal; 
 -webkit-box-direction: normal; 
 -ms-flex-flow: row wrap; 
@@ -148,6 +151,7 @@ margin: auto;
                  margin-top: 50px; 
                  display: -webkit-box; 
                  display: -ms-flexbox; 
+                 display: -webkit-flex;
                  display: flex;
                  width: 250px;
      
