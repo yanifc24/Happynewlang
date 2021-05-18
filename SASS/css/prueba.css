@@ -393,7 +393,6 @@ nav ul li {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -o-transition: border 0.5s;
   transition: border 0.5s; }
   .imgIndex:hover {
     border-left: #f1b308 solid 8px;

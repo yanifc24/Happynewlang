@@ -76,7 +76,6 @@ nav ul li{
          display: -webkit-flex;
          display: -ms-flexbox; 
          display: flex;
-         -o-transition: border 0.5s;
          transition: border 0.5s;
          &:hover { 
              border-left: $naranja solid 8px;
