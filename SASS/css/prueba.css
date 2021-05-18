@@ -215,25 +215,23 @@ video {
       color: #b30d4c; }
 
 /*Bloque 4 Portada*/
-#backgroundPortada {
+.backgroundPortada {
   background-color: powderblue;
   background-position: bottom;
   background-size: cover;
   padding-bottom: 200px;
-  padding-top: 150px; }
-
-.backgroundPortada__tituloGrande {
-  padding-left: 40px;
-  padding-bottom: 40px;
-  font-size: 2.5rem;
-  padding-top: 40px; }
-
-.backgroundPortada__textoPortada {
-  color: #070707;
-  font-size: 1.4rem;
-  padding-left: 40px;
-  padding-right: 40px;
-  line-height: 1.7; }
+  padding-top: 60px; }
+  .backgroundPortada__tituloGrande {
+    padding-left: 40px;
+    padding-bottom: 40px;
+    font-size: 2.5rem;
+    padding-top: 40px; }
+  .backgroundPortada__textoPortada {
+    color: #070707;
+    font-size: 1.4rem;
+    padding-left: 40px;
+    padding-right: 40px;
+    line-height: 1.7; }
 
 /*Bloque 5 Derechos*/
 #derechosAbajo {
@@ -259,34 +257,22 @@ video {
 .textoCursos {
   margin-top: 40px;
   margin-bottom: 50px; }
+  .textoCursos__cursoCentro {
+    text-align: center;
+    font-size: 1.3rem;
+    font-style: oblique;
+    line-height: 1.5;
+    text-align: justify;
+    padding: 20px 20px  20px  10px; }
 
-#textoCursos__cursoCentro {
-  text-align: center;
-  font-size: 1.3rem;
-  font-style: oblique;
-  line-height: 1.5;
-  text-align: justify;
-  padding: 20px 20px  20px  10px; }
-
-/*Bloque 7  Galería nosotros*/
-.galeria__foto {
-  border-radius: 30px;
-  border: #f1b308 6px dotted;
-  margin-top: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  width: 250px; }
-
-/*Bloque 8 Redes*/
+/*Bloque 7 Redes*/
 .agrandar {
   list-style-type: none;
   text-align: center; }
   .agrandar__redes {
     padding: 3px; }
 
-/*Bloque 9 niveles*/
+/*Bloque 8 niveles*/
 .textoNiveles {
   padding-left: 40px;
   font-size: 1.2rem; }
@@ -298,7 +284,7 @@ video {
     border-radius: 20px;
     font-weight: bold; }
 
-/*Bloque 10 niveles Boton*/
+/*Bloque 9 niveles Boton*/
 .btnInscripcion {
   text-align: center;
   padding-top: 40px; }
@@ -308,7 +294,7 @@ video {
     margin-left: 30px;
     border-radius: 20px; }
 
-/*Bloque 11 texto Examen*/
+/*Bloque 10 texto Examen*/
 .parrafoExamen {
   padding-left: 40px;
   font-size: 1.2rem; }
@@ -379,7 +365,7 @@ a {
 nav ul li {
   font-size: 1.2rem; }
 
-/* Inicio Galería de imágenes "Nuestro espacio"*/
+/* Galería de imágenes */
 .galeria {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -407,12 +393,21 @@ nav ul li {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-transition: border 0.5s;
   -o-transition: border 0.5s;
   transition: border 0.5s; }
   .imgIndex:hover {
     border-left: #f1b308 solid 8px;
     border-right: #e37f87 solid 8px; }
+
+.galeria__foto {
+  border-radius: 30px;
+  border: #f1b308 6px dotted;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  width: 250px; }
 
 #margenGaleria {
   margin-top: 100px;
@@ -571,7 +566,7 @@ footer {
     -webkit-row-gap: 30px;
     -webkit-column-gap: 30px; }
   .backgroundPortada__tituloGrande {
-    padding-top: 20px; }
+    padding-top: 0px; }
   .backgroundPortada__textoPortada {
     font-size: 1.2rem;
     text-align: start; }
@@ -594,8 +589,8 @@ footer {
     flex-direction: column;
     -ms-flex-pack: distribute;
     justify-content: space-around;
-    -webkit-row-gap: 70px;
-    row-gap: 70px;
+    -webkit-row-gap: 40px;
+    row-gap: 40px;
     padding-left: 20px; }
   .tablaSpace {
     padding-left: 30px; }
@@ -642,8 +637,11 @@ footer {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    -webkit-row-gap: 30px;
-    row-gap: 30px; }
+    -webkit-row-gap: 40px;
+    row-gap: 40px; }
+    .sinItem li a img {
+      padding-top: 10px;
+      padding-bottom: 30px; }
   .datosContacto li {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -727,7 +725,8 @@ footer {
     margin-top: -100px;
     margin-right: -115px;
     margin-bottom: -200px;
-    padding-bottom: 30px; }
+    padding-bottom: 30px;
+    width: 100vw; }
   .carousel-caption {
     font-size: 26px; }
   .tituloNegro {
@@ -737,9 +736,9 @@ footer {
   #mediaWidth {
     width: 80vw;
     margin-right: 0 px; }
-  #backgroundPortada {
+  .backgroundPortada {
     margin-right: 0px;
-    width: 105vw; }
+    width: 100vw; }
   .listaUbicacion {
     display: grid;
     grid-template-columns: 1fr;
@@ -748,8 +747,8 @@ footer {
     justify-self: center; }
   .textoBlanco {
     font-size: 2.2rem; }
-  .textoPortada {
-    font-size: 1.5rem; }
+  .backgroundPortada__textoPortada {
+    font-size: 1.6rem; }
   .tituloGrande {
     font-size: 2.9rem; }
   nav ul li {
@@ -758,6 +757,8 @@ footer {
     font-size: 1.4rem; }
   .datosContacto {
     font-size: 1.4rem; }
+  .tablaSpace {
+    padding-left: 130px; }
   #derechos {
     font-size: 1rem; }
   #derechosAbajo {
@@ -783,7 +784,7 @@ footer {
     -webkit-column-gap: 30px; }
   footer {
     display: block;
-    width: 105vw; }
+    width: 100vw; }
   .sinItem li a {
     display: -webkit-box;
     display: -webkit-flex;
@@ -815,7 +816,7 @@ footer {
   #margenMapa {
     margin-top: 80px; }
   .backgroundOrange {
-    width: 105vw;
+    width: 100vw;
     margin-right: -145px; }
   .textoExamen li {
     font-size: 1rem; }
@@ -831,7 +832,7 @@ footer {
     -ms-flex-direction: row;
     flex-direction: row; }
   .slide {
-    width: 105vw; }
+    width: 100vw; }
   .gridNiveles {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -872,8 +873,8 @@ footer {
     justify-self: center; }
   .textoBlanco {
     font-size: 2rem; }
-  .textoPortada {
-    font-size: 1.2rem; }
+  .backgroundPortada__textoPortada {
+    font-size: 1.5rem; }
   .tituloGrande {
     font-size: 3rem; }
   .tituloFooter {
