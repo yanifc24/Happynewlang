@@ -216,7 +216,7 @@ video {
 
 /*Bloque 4 Portada*/
 .backgroundPortada {
-  background-color: powderblue;
+  background-color: #b0e0e6;
   background-position: bottom;
   background-size: cover;
   padding-bottom: 200px;
@@ -347,6 +347,9 @@ a {
 
 .listaColor-1, .listaColor-2, .listaColor-3 {
   color: #f1b308; }
+
+.svg {
+  margin-top: -50px; }
 
 .sinItem {
   list-style-type: none; }
