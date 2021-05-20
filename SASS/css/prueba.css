@@ -7,18 +7,6 @@
   padding-left: 40px;
   margin-top: 60px; }
 
-.tituloBlanco {
-  color: #ffffff;
-  font-weight: bolder;
-  font-size: 2rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center; }
-
 .tituloNegro {
   color: #030200;
   font-weight: bolder;
@@ -135,8 +123,8 @@ video {
   margin-top: 30px;
   margin-bottom: 50px; }
 
-.textoBlanco {
-  color: #ffffff;
+.textoNegro {
+  color: #0f0f0f;
   font-family: 'Fredoka One', cursive;
   font-size: 1.8rem;
   margin-bottom: -20px;
@@ -188,17 +176,6 @@ video {
   background-color: #f7aa1c;
   margin-bottom: 20px;
   padding-top: 40px; }
-  .backgroundOrange__tituloBlanco {
-    color: #ffffff;
-    font-weight: bolder;
-    font-size: 2rem;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center; }
 
 /*Bloque 3 Footer*/
 .datosContacto {
@@ -523,7 +500,8 @@ footer {
     padding-left: 50px;
     padding-right: 40px;
     text-align: center;
-    color: #ffffff; }
+    color: #0a0a0a;
+    text-decoration: none; }
     .listaUbicacion a img {
       display: block;
       margin: 0 auto;
