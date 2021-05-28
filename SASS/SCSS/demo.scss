@@ -10,6 +10,8 @@ $width: 100%;
 
 
  /* Generales*/
+
+
  * {text-decoration: none; }
 
  html { font-size: 62,5%; }
@@ -21,9 +23,13 @@ $width: 100%;
 a { color: inherit;}
 
 .lista{ 
-     list-style-image: url(imagenes/checkmark3.png); }
+     list-style-image: url(imagenes/checkmark3.png);  }
 
-.listaColor-1 , .listaColor-2 , .listaColor-3{ color:$naranja;  }
+.listaColor-1 , .listaColor-2 , .listaColor-3{ 
+     color:rgb(92, 98, 100); 
+     line-height: 2.2;
+ }
+
 
 .svg {
      margin-top: -50px;
@@ -249,7 +255,25 @@ nav ul li{
 }
 .sliderResaltado{ 
       color: #030200;
-     background-color: #f0f3f5;
+      background-color: #f0f3f5;
+}
+
+   /*Error 404*/
+
+.fondoError{ 
+     background-color: #85e4eb; 
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     text-align: center;
+     margin-top: 60px;
+}
+.perdido {
+     font-size: 1.4rem;
+     padding: 20px;
+}
+
+.btnVolver {
+    margin-bottom: 30px;
+    font-size: 2rem;
 }
 
     /*Inicio KeyFrames*/      
@@ -289,6 +313,9 @@ nav ul li{
           
                       
                        }
+     .fondoError  img { 
+          width:300px; 
+     }
   
  .backgroundPortada__tituloGrande{ padding-top: 0px;}
              
@@ -414,9 +441,9 @@ footer {
  .backgroundOrange{ width: 100vw; }
    
  iframe { 
-         width: 360px;
+         width: 370px;
          height: 180;
-         padding-right: 70px;
+         padding-right: 120px; padding-left: 10px;
             }
    
  .margenes { margin-left: 25px; }
@@ -462,7 +489,7 @@ footer {
              
  
  .fotonyc img {
-                  width: 280px;
+                  width: 260px;
              }
  .carousel-caption{ 
                   font-size:24px;

@@ -19,7 +19,7 @@ $colors: ( "verde": #9bf1a6,
         font-family: 'Mali', cursive; 
         font-size: 2rem; 
         font-weight: bolder;
-        color: rgb(56, 205, 216);}  
+        color: rgb(78, 203, 212);}  
 }
 
  /*Bloque 2*/
@@ -34,8 +34,8 @@ $colors: ( "verde": #9bf1a6,
 /*Bloque 3 Footer*/
 .datosContacto{ 
  font-size: 1.2rem;
+ text-align: center;
  &__item{ 
-    text-align: start; 
     padding: 6px; 
     font-weight: bold;
     &--blue{color: #132170;
@@ -104,11 +104,9 @@ $colors: ( "verde": #9bf1a6,
     margin-top:40px ; 
     margin-bottom: 50px;
     &__cursoCentro { 
-        text-align: center;
         font-size: 1.3rem ;
         font-style: oblique;
         line-height: 1.5;
-        text-align: justify;
         padding: 20px 20px  20px  10px ; }    
      
 }

@@ -10,7 +10,7 @@
 .tituloNegro {
   color: #030200;
   font-weight: bolder;
-  font-size: 2rem;
+  font-size: 2.1rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -18,7 +18,7 @@
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  margin-bottom: 45px; }
+  margin-bottom: 75px; }
 
 .tituloResaltado {
   background-color: #e37f87;
@@ -98,7 +98,6 @@
 
 .texto {
   padding: 20px 20px  20px  10px;
-  text-align: justify;
   font-size: 1.2rem;
   line-height: 1.5;
   color: #030200; }
@@ -125,7 +124,6 @@ video {
 
 .textoNegro {
   color: #0f0f0f;
-  font-family: 'Fredoka One', cursive;
   font-size: 1.8rem;
   margin-bottom: -20px;
   padding-bottom: 100px; }
@@ -169,7 +167,7 @@ video {
     font-family: 'Mali', cursive;
     font-size: 2rem;
     font-weight: bolder;
-    color: #38cdd8; }
+    color: #4ecbd4; }
 
 /*Bloque 2*/
 .backgroundOrange {
@@ -179,9 +177,9 @@ video {
 
 /*Bloque 3 Footer*/
 .datosContacto {
-  font-size: 1.2rem; }
+  font-size: 1.2rem;
+  text-align: center; }
   .datosContacto__item {
-    text-align: start;
     padding: 6px;
     font-weight: bold; }
     .datosContacto__item--blue {
@@ -235,11 +233,9 @@ video {
   margin-top: 40px;
   margin-bottom: 50px; }
   .textoCursos__cursoCentro {
-    text-align: center;
     font-size: 1.3rem;
     font-style: oblique;
     line-height: 1.5;
-    text-align: justify;
     padding: 20px 20px  20px  10px; }
 
 /*Bloque 7 Redes*/
@@ -323,7 +319,8 @@ a {
   list-style-image: url(imagenes/checkmark3.png); }
 
 .listaColor-1, .listaColor-2, .listaColor-3 {
-  color: #f1b308; }
+  color: #5c6264;
+  line-height: 2.2; }
 
 .svg {
   margin-top: -50px; }
@@ -519,6 +516,21 @@ footer {
   color: #030200;
   background-color: #f0f3f5; }
 
+/*Error 404*/
+.fondoError {
+  background-color: #85e4eb;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  margin-top: 60px; }
+
+.perdido {
+  font-size: 1.4rem;
+  padding: 20px; }
+
+.btnVolver {
+  margin-bottom: 30px;
+  font-size: 2rem; }
+
 /*Inicio KeyFrames*/
 .tituloResaltado {
   animation-name: opacity;
@@ -545,6 +557,8 @@ footer {
     row-gap: 30px;
     -webkit-row-gap: 30px;
     -webkit-column-gap: 30px; }
+  .fondoError img {
+    width: 300px; }
   .backgroundPortada__tituloGrande {
     padding-top: 0px; }
   .backgroundPortada__textoPortada {
@@ -639,9 +653,10 @@ footer {
   .backgroundOrange {
     width: 100vw; }
   iframe {
-    width: 360px;
+    width: 370px;
     height: 180;
-    padding-right: 70px; }
+    padding-right: 120px;
+    padding-left: 10px; }
   .margenes {
     margin-left: 25px; }
   .margenesNosotros {
@@ -671,7 +686,7 @@ footer {
   #fotoAcademia img {
     width: 230px; }
   .fotonyc img {
-    width: 280px; }
+    width: 260px; }
   .carousel-caption {
     font-size: 24px; }
   #contacto {
