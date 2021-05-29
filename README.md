@@ -1,4 +1,4 @@
-# happynewlang
+
 # HappyNewlang
 <div id="logo" class="sinItem">
             <a class="navbar-brand" href="index.html"><img src="Imagenes/logo4.png.png" alt="HappyNewlang" width="200px"></a>
