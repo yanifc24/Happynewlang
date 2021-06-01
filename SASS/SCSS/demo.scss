@@ -22,8 +22,6 @@ $width: 100%;
 
 a { color: inherit;}
 
-.lista{ 
-     list-style-image: url(imagenes/checkmark3.png);  }
 
 .listaColor-1 , .listaColor-2 , .listaColor-3{ 
      color:rgb(92, 98, 100); 
@@ -89,7 +87,8 @@ nav ul li{
              border-left: $naranja solid 8px;
              border-right: #e37f87 solid 8px;} ;
 
-}
+                     }
+
 .galeria__foto{ 
     border-radius: 30px; 
     border:$naranja 6px dotted; 
@@ -157,8 +156,8 @@ nav ul li{
 
  /*Fin Contacto*/
 
-
        /*Comienzo exámen*/
+
 .textoExamen{
           font-size: 1.2rem;
           text-align: justify;
@@ -266,6 +265,7 @@ nav ul li{
      text-align: center;
      margin-top: 60px;
 }
+
 .perdido {
      font-size: 1.4rem;
      padding: 20px;
@@ -313,9 +313,11 @@ nav ul li{
           
                       
                        }
+     
      .fondoError  img { 
           width:300px; 
      }
+     
   
  .backgroundPortada__tituloGrande{ padding-top: 0px;}
              
@@ -491,16 +493,20 @@ footer {
  .fotonyc img {
                   width: 260px;
              }
+     
  .carousel-caption{ 
                   font-size:24px;
                  }
+     
  #contacto { 
       padding-left: 40px; 
       padding-right: 40px;
  }
+     
  .verde {
       background-color:#9cf5a9 ;
  }   
+     
   .gridNiveles {    
          display: -webkit-box;        
          display: -ms-flexbox;  
@@ -523,6 +529,7 @@ footer {
 .tituloGrande { 
                 padding-top:20px;
            }
+     
 .ciudades{ 
            font-size:1.6rem;
           }
@@ -750,9 +757,11 @@ footer {display:block;
              width: 100vw;
              margin-right:-145px;
              } 
+  
  #margenMapa{
              margin-top:80px;
              }
+  
 #gridExamen{
      display: -webkit-box;   
      display: -ms-flexbox;  
